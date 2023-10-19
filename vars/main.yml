@@ -1,0 +1,7 @@
+---
+# vars file for proxmox-coreos
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPDx+KV/SW4RGIeKA2FHU9S7bZgnJMy77N6lBeo2n8sJ
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHdMIGHd1NH8GywMBndY6de0aCjMeZmBCPMaZdNCwHNC bri@fedora

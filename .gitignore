@@ -1,0 +1,3 @@
+.direnv
+bin/butane
+git-crypt.key

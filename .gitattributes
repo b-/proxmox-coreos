@@ -1,0 +1,6 @@
+*.secret filter=git-crypt diff=git-crypt
+*.key filter=git-crypt diff=git-crypt
+SECRETS filter=git-crypt diff=git-crypt
+SECRETS.env filter=git-crypt diff=git-crypt
+SECRETS/** filter=git-crypt diff=git-crypt
+#.env filter=git-crypt diff=git-crypt

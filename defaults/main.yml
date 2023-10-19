@@ -1,0 +1,9 @@
+---
+# defaults file for proxmox-coreos
+  users:
+    - name: core
+      ssh_authorized_keys:
+      groups:
+        - wheel
+        - sudo
+      password_hash: $y$j9T$5BzrAkHjLSFV4Em1J52Lv/$glLlvQnJrpMWjhXJxeDVBqJEKI3VgoDjfuEu1f1SQE4
